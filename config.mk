@@ -46,6 +46,7 @@ ifneq ($(TARGET_INCLUDE_AOSP_REPLACEMENTS), false)
 PRODUCT_PACKAGES += \
     GoogleDialer \
     GoogleContacts \
+    Photos \
     PrebuiltDeskClockGoogle
 endif
 
@@ -57,7 +58,7 @@ PRODUCT_PACKAGES += \
     Chrome \
     Chrome-Stub \
     GoogleTTS \
-    Photos \
+    
     MarkupGoogle \
     WebViewGoogle \
     WebViewGoogle-Stub \
