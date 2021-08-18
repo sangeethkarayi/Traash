@@ -58,7 +58,6 @@ PRODUCT_PACKAGES += \
     Chrome \
     Chrome-Stub \
     GoogleTTS \
-    
     MarkupGoogle \
     WebViewGoogle \
     WebViewGoogle-Stub \
