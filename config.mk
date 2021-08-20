@@ -102,6 +102,7 @@ PRODUCT_PACKAGES += \
     Phonesky \
     SafetyHubPrebuilt \
     ScribePrebuilt \
+    SetupWizardPrebuilt \
     Showcase \
     TetheringEntitlement \
     USCCDM \
@@ -130,6 +131,7 @@ PRODUCT_PACKAGES += \
     GoogleOneTimeInitializer \
     GoogleServicesFramework \
     grilservice \
+    PixelSetupWizard \
     RilConfigService \
     StorageManagerGoogle
 
@@ -150,6 +152,14 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librsjni
 
+# SetupWizard
+PRODUCT_PRODUCT_PROPERTIES += \
+    setupwizard.theme=glif_v3_light \
+    setupwizard.feature.skip_button_use_mobile_data.carrier1839=true \
+    setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false \
+    setupwizard.feature.show_pixel_tos=true \
+    setupwizard.feature.baseline_setupwizard_enabled=true \
+    ro.setupwizard.esim_cid_ignore=00000001
 
 # System whitelist
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
