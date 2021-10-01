@@ -130,6 +130,7 @@ PRODUCT_PACKAGES += \
     GoogleOneTimeInitializer \
     GoogleServicesFramework \
     grilservice \
+    PixelSetupWizard \
     RilConfigService \
     StorageManagerGoogle
 
